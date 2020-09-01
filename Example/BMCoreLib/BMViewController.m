@@ -7,6 +7,7 @@
 //
 
 #import "BMViewController.h"
+//#import <BMCore/BMMeetingController.h>
 
 @interface BMViewController ()
 
@@ -19,6 +20,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
+- (IBAction)btnToMeetingAction:(UIButton *)sender {
+//    BMMeetingController *vc = [[BMMeetingController alloc] init];
+//    [self.navigationController pushViewController:vc animated:true];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
