@@ -7,7 +7,7 @@
 //
 
 #import "BMViewController.h"
-//#import <BMCore/BMMeetingController.h>
+#import <BMCoreLib/BMMeetingController.h>
 
 @interface BMViewController ()
 
@@ -23,8 +23,8 @@
 
 
 - (IBAction)btnToMeetingAction:(UIButton *)sender {
-//    BMMeetingController *vc = [[BMMeetingController alloc] init];
-//    [self.navigationController pushViewController:vc animated:true];
+    BMMeetingController *vc = [[BMMeetingController alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
 }
 
 
